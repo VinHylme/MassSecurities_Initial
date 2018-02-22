@@ -1,0 +1,61 @@
+.fire_alarm_section{
+  width: 79%;
+  height: 850px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.fire_alarm_section h3{
+  font-size: 29px;
+  font-weight: bold;
+}
+.fire_alarm_section hr{
+  width: 35%;
+}
+.fire_alarm_section h4{
+  font-size: 25px;
+  font-family: "Sansation";
+  font-weight: bold;
+  color: #ff751a;
+}
+#listing_detectors{
+  width: 271px;
+  height: 120px;
+  margin: 0 auto;
+}
+#listing_detectors ul{
+  text-align: left;
+  font-size: 16px;
+}
+#listing_detectors li:hover{
+  font-weight: bold;
+  cursor: pointer;
+}
+#falarm_box{
+  border-radius: 5px;
+  width: 650px;
+  height: 345px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #ff751a;
+}
+#falarm_box h2{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+  margin: 0auto;
+  font-family: "Sansation";
+}
+#falarm_c{
+  background-image: url("alarms/fire-alarms.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 500px;
+  height: 275px;
+  position: relative;
+  margin: auto;
+}

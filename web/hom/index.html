@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/style2.css" rel="stylesheet" />
+    <link href="assets/css/style_alarm.css" rel="stylesheet"/>
+    <link href="assets/css/style_fire_alarm.css" rel="stylesheet"/>
+    <link href="assets/css/style_electrical.css" rel="stylesheet"/>
+    <link href="assets/css/maintenance.css" rel="stylesheet"/>
+    <link href="assets/css/style_booking.css" rel="stylesheet"/>
+    <link href="assets/css/style_mobile.css" rel="stylesheet" />
+    <link href="assets/css/pikaday.css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="assets/css/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/css/favicon-16x16.png" sizes="16x16">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="assets/javascripts/pickaday.js"></script>
+    <script src="assets/javascripts/js.js"></script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Mass Securities </title>
+</head>
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+  <a href="#home"><div class="goUp">
+     <span class="arr-up"></span>
+  </div></a>
+    <div class="navbar navbar-inverse navbar-fixed-top scrollclass" >
+      <div class="container">
+        <div class="nav-header" id="logoheader">
+            <a class="navbar-brand" id="logobrand" href="#">  <div id="logo"></div></a>
+
+            <div id="phone_area">
+              <div class="hle">
+              <a href="tel:01612119477">
+                <div class="greybg">
+                  <div id=iconbg></div>
+                <h4>01612119477</h4>
+                </div></a>
+              </div>
+              <div class="hle">
+                <a href="tel:+447411722777">
+                  <div class="greybg2">
+                  <div id=iconbg2></div>
+                <h4>07411722777</h4>
+                </div></a>
+            </div>
+            </div>
+            <!--  <div id="logo_cert"></div>
+              <div id="ukas_cert"></div>
+-->
+        </div>
+    </div>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cctv">CCTV</a></li>
+                    <li><a href="#alarms">Alarms</a></li>
+                    <li><a href="#firealarm">Fire Alarms</a></li>
+                    <li><a href="#electrical">Electrician</a></li>
+                    <li><a href="#maintenance">Maintenance</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li id="hidden_book"><a href="#booking">Booking</a></li>
+                    <!--<li id="bookings"><a id="booking_a" href="#booking"> BOOK A FREE QUOTE <a></li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+  (function($) {
+      $(document).ready(function(){
+          $(window).scroll(function(){
+              if ($(this).scrollTop() < 1) {
+                  $('#logoheader').slideDown(195, "linear");
+              } else {
+                  $('#logoheader').slideUp(195, "linear");
+              }
+          });
+      });
+  })(jQuery);
+    </script>
+       <section id="home" class="text-center" style="background-color:#fff;">
+            <div class="container">
+           <div  class="row text-center pad-top  hommin-height-cls" >
+            <div class="col-md-12">
+              <div id="someImg">
+                <a href="#booking">  <div id="bookingbutton">BOOK A FREE QUOTE</div></a>
+              </div>
+                 <div class="content">
+                  <div class="box_Content">
+                    <div class="box1">
+                      <div id="search_c"></div>
+                      <h1>Browse</h1>
+                      <p>Look through our services<br>and find what you are looking for.</p>
+                      <div id="nu_1"></div>
+                    </div>
+
+                    <div class="box1">
+                      <div id="re_c"></div>
+                      <h1>Request a Quote</h1>
+                      <p>Once you find what you are looking,<br>book a free quote and tell us what you need</p>
+                      <div id="nu_2"></div>
+                    </div>
+                    <div class="box1">
+                      <div id="an_c"></div>
+                      <h1>Well notify you</h1>
+                      <p>Our team of experts will be<br>in touch with you within the next 1-2 days</p>
+                      <div id="nu_3"></div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+
+               </div>
+        </div>
+       </section>
+        <section id="cctv" style="background-color:#fff; border-top:1px solid #eee;" >
+            <div class="container">
+           <div class="row text-center pad-top  conmin-height-cls" >
+            <div class="col-md-12">
+              <div id="cctv_section">
+
+                <h3>CCTV SYSTEMS</h3>
+                <hr>
+                <div class="box_container actived" id="analog_c_box">
+                  <div class="img" id="analog_c"></div>
+                  <h2>Analog CCTV Systems</h2>
+                </div>
+                <div class="box_container" id="hd_c_box">
+                  <div class="img" id="hd_c"></div>
+                  <h2>Full HD CCTV Systems</h2>
+                </div>
+                <div class="box_container" id="dvr_c_box">
+                  <div class="img" id="dvr_c"></div>
+                  <h2>DVR CCTV Systems</h2>
+                </div>
+                <br><br>
+                <div class="box_container" id="hdd_c_box">
+                  <div class="img" id="hdd_c"></div>
+                  <h2>Hard Drive Based CCTV systems</h2>
+                </div>
+                <div class="box_container" id="ip_c_box">
+                  <div class="img" id="ip_c"></div>
+                  <h2>I.P. CCTV systems</h2>
+                </div>
+                <div class="box_container" id="tvi_c_box">
+                  <div class="img" id="tvi_c"></div>
+                  <h2>TVI CCTV systems</h2>
+                </div>
+                <div class="content_cctv">
+                  <h1>Analog CCTV Systems</h1>
+                  <hr>
+                  <p>Cameras on an modern analog CCTV system send their video in the traditional base band format over coax or UTP cabling back to a digital video recorder (DVR). Here, video is digitized and stored on hard drives.</p>
+                  <a id="an_1" href="#booking"><button class="button" style="vertical-align:middle"><span>REQUEST A QUOTE FOR THIS</span></button></a>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+        </section>
+         <section id="alarms" style="background-color:#fff;" >
+               <div class="container">
+           <div class="row text-center pad-top  almin-height-cls" >
+            <div class="col-md-12">
+
+                <div class="alarm_section">
+                  <h3>INTRUDER ALARM SYSTEMS</h3>
+                  <hr>
+                  <div id="wireless_c_box" class="current">
+                    <div id="wireless_img"></div>
+                    <h2>Wireless Alarms</h2>
+                  </div>
+                  <div id="wired_c_box">
+                    <div id="wired_img"></div>
+                    <h2>Wired Alarms</h2>
+                  </div>
+                    <div id="content_alarm">
+                      <h1>Wireless Alarms</h1>
+                      <p> The main difference between wireless intruder alarms and hard-wired intruder alarms is that the main component parts of the device communicate via radio signals as opposed to an electrical wired connection. At Keyways, Altrincham we can supply, install and maintain wireless burglar alarms. Wireless burglar alarms are considered to be just as reliable as hard-wired burglar alarms but it important to remember that they more suited to houses and smaller businesses as opposed to large commercial buildings as they have a limited transmission distance.</p>
+                      <h2>The Advantages</h2>
+                      <div class="content_alarm_list" id="wireless_1">
+                        <ul>
+                            <li>Wireless transmission for use at inaccessible locations</li>
+                            <li>Cost-effective installation</li>
+                            <li>Very flexible, can be extended at any time</li>
+                        </ul>
+                    </div>
+                    <div class="content_alarm_list" id="wired_1">
+                      <ul>
+                          <li>Affordable components</li>
+                          <li>Very resilient thanks to exclusive mode of transmission</li>
+                          <li>Low maintenance costs (batteries do not need to be replaced thanks to permanent power supply) </li>
+                      </ul>
+                  </div>
+                  <a id="a_1" href="#booking"><button class="button" style="vertical-align:middle"><span>REQUEST A QUOTE FOR THIS</span></button></a>
+                    </div>
+
+                </div>
+            </div>
+
+               </div>
+        </div>
+        </section>
+        <section id="firealarm" style="background-color:#fff;" >
+              <div class="container">
+          <div class="row text-center pad-top  fimin-height-cls" >
+           <div class="col-md-12">
+
+             <div class="fire_alarm_section">
+                <h3>FIRE ALARMS</h3>
+                <hr>
+
+              <div id="falarm_box">
+              <div id="falarm_c"></div>
+              <h2>General Fire Alarm Kit</h2>
+                </div>
+                <h1>Description</h1>
+                <p>This kit contains all you need to get an installation underway in one package. Using an industry standard C-Tec CFP control panel and Apollo Series 65 detectors, this is a 4 wire conventional system. </p>
+                <h4>What we include</h4>
+                <div id="listing_detectors">
+                  <ul>
+                    <li>Conventional Heat Detector</li>
+                    <li>Conventional Smoke Detector</li>
+                    <li>Conventional Main Panel</li>
+                    <li>Manual Call Point</li>
+                    <li>Response Indicator</li>
+                  </ul>
+              </div>
+            <a id="f_1" href="#booking">  <button class="button" style="vertical-align:middle"><span>REQUEST A QUOTE FOR THIS</span></button></a>
+             </div>
+           </div>
+
+              </div>
+       </div>
+          <!-- <div id="footbg_el">
+              <div id="footbg_el_img"></div>
+           </div>-->
+       </section>
+
+       <section id="electrical" style="background-color:#fff;" >
+        <!-- <div id="contbg_el">
+              <div id="contbg_el_img"></div>
+         </div>-->
+             <div class="container">
+         <div class="row text-center pad-top  elmin-height-cls" >
+          <div class="col-md-12">
+            <div class="electrical_section">
+              <div id="el_img"></div>
+              <h3>ELETRICAL MAINTENANCE</h3>
+              <p>As part of the extensive range of contract services, Quest offers an installation and maintenance service to a wide range of sectors. Our NICEIC qualified electricians are available to work across all sectors to provide you with electrical maintenance and on-site repair service.</p>
+              <p> Facets of the work include testing, fixing and replacing equipment in buildings owned by corporations, government entities and modern industrial plants. </p>
+              <div id="som_holder">
+                <h4>What we specialise in</h4>
+                <ul>
+                  <li>General electrical works</li>
+                  <li>Control panel installation</li>
+                  <li>Fuse panel installation</li>
+                  <li>Electrical installation</li>
+                  <li>Additional lighting and power</li>
+                  <li>Onsite electrical maintenance programmes</li>
+                  <li>Lighting connections</li>
+                  <li>LED Lighting</li>
+                  <li>Wiring and Cabling</li>
+                </ul>
+             </div>
+            <a id="m_2" href="#booking">  <button class="button" style="vertical-align:middle"><span>REQUEST A MAINTENANCE QUOTE</span></button></a>
+              </div>
+            <div/>
+             </div>
+      </div>
+      </section>
+       <section id="maintenance" style="background-color:#fff;" >
+             <div class="container">
+         <div class="row text-center pad-top  mamin-height-cls" >
+          <div class="col-md-12">
+            <div class="maintenance_section">
+              <h3>MAINTENANCE</h3>
+              <hr>
+              <div class="boxes_maint">
+                <div id="img_1"></div>
+                <h2>Alarms Maintenance</h2>
+              </div>
+              <div class="boxes_maint main">
+                <div id="img_2"></div>
+                <h2>CCTV Maintenance</h2>
+              </div>
+              <div class="boxes_maint">
+                <div id="img_3"></div>
+                <h2>Fire Alarms Maintenance</h2>
+              </div>
+              <br>
+              <br>
+              <h4>Description</h4>
+              <p>Effective and regular maintenance of a CCTV surveillance system is essential to ensure that the system
+remains reliable at all times. Regular maintenance by the maintenance company and effective failure
+reporting by the user will enable potential problems to be identified at an early stage so that appropriate
+action can be taken</p>
+            <div id="ul_holder">
+              <ul>
+                  <li>General CCTV Maintenance</li>
+                  <li>General Alarms Maintenance</li>
+                  <li>General Fire Alarms Maintenance</li>
+              </ul>
+            </div>
+              <a id="m_1" href="#booking"><button class="button" style="vertical-align:middle"><span>REQUEST A MAINTENANCE QUOTE</span></button></a>
+            </div>
+          </div>
+
+             </div>
+      </div>
+      </section>
+
+     <section id="contact" style="background-color:#fff;" >
+            <div class="container">
+           <div class="row text-center pad-top  cmin-height-cls" >
+            <div class="col-md-12">
+        <h3 id="ContactUSHeader">CONTACT US</h3>
+        <br>
+        <div class="contactForm_section">
+      <div id="contactform">
+        <h1>Send us an email</h1>
+      <form action="assets/mail_handler.php" method="post" class="pure-form pure-form-aligned">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="name_full">Name</label>
+                <input name="name_full" id="name_full" type="text" placeholder="Example John Snow">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="phone_nu">Phone Number</label>
+                <input name="phone_nu" id="phone_nu" placeholder="Phone Number">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="email">Email Address</label>
+                <input name="email" id="email" type="email" placeholder="Email Address">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="foo">Message</label>
+                <textarea name="msg" id="msg" placeholder="Enter your message here..."></textarea>
+            </div>
+
+            <div class="pure-controls">
+                <button name="submit" type="submit" class="pure-button pure-button-primary">Submit</button>
+            </div>
+        </fieldset>
+      </form>
+                    </div>
+                    <div id="ourinfo_section">
+                          <h1> Our Infromation</h1>
+                        <div id="l_hold">
+                            <div id="l_location"></div> <label> Manchester, M8 0TJ </label>
+                            <div id="l_email"></div> <label> info@masssecurities.com </label>
+                            <div id="l_phone"></div> <label> +44 (0) 7411722777 </label>
+                              <hr>
+                              <div id="social_hold">
+                                <a href="https://www.facebook.com/masssecurities/?fref=ts"><div id="facebook_c"></div></a>
+                                <a href= "https://www.instagram.com/masssecurities/"><div id="instagram_c"></div></a>
+                              </div>
+                        </div>
+
+                    </div>
+                    <div id="c_footer">
+                      <h1> Location</h1>
+                      <hr>
+                    </div>
+                </div>
+
+
+              <!--  <div class="contact_Footer">
+                    <div class="info_holder">
+                        <p>info@masssecurities.com</p>
+                    </div>
+                </div>-->
+            </div>
+
+               </div>
+        </div>
+        </section>
+        <section id="booking" style="background-color:#fff;" >
+               <div class="container">
+              <div class="row text-center pad-top  bkmin-height-cls" >
+               <div class="col-md-12">
+
+                   <div class="booking_section">
+                      <h3>BOOK A QUOTE</h3>
+                      <form action="assets/quote_handler.php" method="post" class="pure-form pure-form-aligned">
+                        <fieldset>
+                            <div class="pure-control-group">
+                                <label for="name">Full Name</label>
+                                <input name="name" id="name" type="text" placeholder="Example John Snow">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="phone">Phone Number</label>
+                                <input name="phone_nu" id="phone_nu" placeholder="Phone Number">
+                            </div>
+
+                            <div class="pure-control-group">
+                                <label for="email">Email Address</label>
+                                <input name="email_1" id="email_1" type="email" placeholder="Email Address">
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="home_address">Home Address</label>
+                                <input name="home_address" id="home_address" type="text" placeholder="E.g. 13 Altrincham road">
+                            </div>
+                            <div class="pure-control-group">
+                                <label for="p_code">Post Code</label>
+                                <input name="p_code" id="p_cpde" type="text" placeholder="E.g. NG7 2KQ">
+                            </div>
+                            <hr>
+                            <div class="control-group2">
+                              <p>Service Type</p>
+                              <div class="select">
+                                <select name="select_service" id="select">
+                                  <option value="1"> CCTV Systems </option>
+                                  <option value="2"> Alarms Systems </option>
+                                  <option value="3"> Fire Alarms Systems </option>
+                                  <option value="4"> Electrical Work </option>
+                                  <option value="5"> Maintenance </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                          <div class="control-group">
+                          <p>Do you have an existing CCTV System?</p>
+                            <label class="control control--radio"> Yes
+                              <input type="radio" value="Yes" name="yes_an_no" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> No
+                              <input type="radio" value="No" name="yes_an_no"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>What type of property is the CCTV system required for?</p>
+                            <label class="control control--radio"> Residential (Home)
+                              <input type="radio" value="Residential (Home)" name="property_type" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> Commercial (Business)
+                              <input type="radio" value="Commercial (Business)" name="property_type"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> Other
+                              <input type="radio" value="Other" name="property_type"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>How many security cameras do you require?</p>
+                            <label class="control control--radio"> 1-4 Cameras
+                              <input type="radio" value="1-4 Cameras" name="cam_nu" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> 5-8 Cameras
+                              <input type="radio" value="5-8 Cameras" name="cam_nu"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> 9+ Cameras
+                              <input type="radio" value="9+ Cameras" name="cam_nu"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> I don't know
+                              <input type="radio" value="I don't know" name="cam_nu"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>How long do you want to keep the recorded CCTV footage?</p>
+                            <label class="control control--radio"> Up to a Week
+                              <input type="radio" value="Up to a Week" name="length_fot"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> Up to a Month
+                              <input type="radio" value="Up to a Month" name="length_fot"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>When do you want the CCTV system installed?</p>
+                            <input name="datepicker" type="text" class="pure-control-group2" id="datepicker">
+                          </div>
+                          <div class="control-group1_2">
+                            <p>Do you want a wired or wireless Alarm System?</p>
+                            <label class="control control--radio"> Wired
+                              <input type="radio" value="Wired" name="wired_wireless" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--radio"> Wireless
+                              <input type="radio" value="Wirless" name="wired_wireless"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>How many rooms do you want to cover with Alarm motion sensors?</p>
+                            <div class="control-group2">
+                              <div class="select">
+                                <select name="select_PIR" id="select">
+                                  <option value="1-2 PIR Sensor"> 1-2 PIR Sensor </option>
+                                  <option value="3-4 PIR Sensors"> 3-4 PIR Sensors </option>
+                                  <option value="5-6 PIR Sensors"> 5-6 PIR Sensors  </option>
+                                  <option value="7-8 PIR Sensors"> 7-8 PIR Sensors  </option>
+                                  <option value="9+ PIR Sensors"> 9+ PIR Sensors </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                            <p>How many doors or windows do you want to secure with magnetic intruder sensors?</p>
+                            <div class="control-group2">
+                              <div class="select">
+                                <select name="intruder_select" id="select">
+                                  <option value="1-1"> 1-2  </option>
+                                  <option value="3-4"> 3-4  </option>
+                                  <option value="5-6"> 5-6  </option>
+                                  <option value="7-8"> 7-8   </option>
+                                  <option value="9+"> 9+ </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                            <p>When do you need the Alarm System Installed?</p>
+                            <input name="datepicker2" type="text" class="pure-control-group2" id="datepicker2">
+                          </div>
+                          <div class="control-group1_3">
+                          <p>Fire Alarm sensors required?</p>
+                            <label class="control control--checkbox"> Smoke Detectors
+                              <input name="sensors_t[]" value="Smoke Detectors" type="checkbox" checked="checked" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Carbon Monoxide Detectors
+                              <input name="sensors_t[]" value="Carbon Monoxide Detectors" type="checkbox"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Fire Spinklers
+                              <input name="sensors_t[]" value="Fire Spinklers" type="checkbox"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Fire Extinguishers
+                              <input name="sensors_t[]" value="Fire Extinguishers" type="checkbox"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Need Advice, Don't know
+                              <input name="sensors_t[]" type="checkbox"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <p>Type of property is the fire alarm system required for?</p>
+                            <div class="control-group2">
+                              <div class="select">
+                                <select name="cg2_fas" id="select">
+                                  <option value="Residential (Home)"> Residential (Home) </option>
+                                  <option value="Commercial (Office)"> Commercial (Office) </option>
+                                  <option value="Other "> Other  </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                            <p>The size of your premises that needs fire protection?</p>
+                            <div class="control-group2">
+                              <div class="select">
+                                <select name="fp_select" id="select">
+                                  <option value="1-100 Square Meter"> 1-100 Square Meter </option>
+                                  <option value="101-200 Square Meter"> 101-200 Square Meter </option>
+                                  <option value="201-300 Square Meter"> 201-300 Square Meter </option>
+                                  <option value=" 301-400 Square Meter"> 301-400 Square Meter </option>
+                                  <option value="401-500 Square Meter"> 401-500 Square Meter </option>
+                                  <option value="500+ Square Meter"> 500+ Square Meter </option>
+                                  <option value="Other"> Other </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                            <p>When do you want the fire alarm system to be installed?</p>
+                              <input name="datepicker3" type="text" class="pure-control-group2" id="datepicker3">
+                          </div>
+                          <div class="control-group1_4">
+                          <p>What service do you require?</p>
+                          <label class="control control--checkbox"> Repairs and maintenance
+                            <input name="s_main[]" value="Repairs and maintenance" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Replace or install fittings and appliances
+                            <input name="s_main[]" value="Replace or install fittings and appliances" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Rewiring or wiring (full or partial)
+                            <input name="s_main[]" value="Rewiring or wiring (full or partial)" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Testing and certification
+                            <input name="s_main[]" value="Testing and certification" type="checkbox"/>
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Consumer unit and fuse box work
+                            <input name="s_main[]" value="Consumer unit and fuse box work" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Fault finding
+                            <input name="s_main[]" value="Fault finding" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                          <label class="control control--checkbox"> Something else
+                            <input name="s_main[]" value="Something else" type="checkbox" />
+                            <div class="control__indicator"></div>
+                          </label>
+                            <p> Please specify the number of rooms that will need work to be done </p>
+                            <div class="control-group2">
+                              <div class="select">
+                                <select name="room_select" id="select">
+                                  <option value="1-2"> 1-2  </option>
+                                  <option value="3-4"> 3-4  </option>
+                                  <option value="5+"> 5+  </option>
+                                </select>
+                                <div class="select__arrow"></div>
+                              </div>
+                            </div>
+                            <p>When do you require this service?</p>
+
+                            <input name="datepicker4" type="text" class="pure-control-group2" id="datepicker4">
+                          </div>
+                          <div class="control-group1_5">
+                            <p>What maintenance service do you require?</p>
+                            <label class="control control--checkbox"> CCTV Systems
+                              <input type="checkbox" name="m_services[]" />
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Intruder Alarms Systems
+                              <input type="checkbox" name="m_services[]"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Fire Alarm Systems
+                              <input type="checkbox" name="[]"/>
+                              <div class="control__indicator"></div>
+                            </label>
+                            <label class="control control--checkbox"> Something else
+                              <input type="checkbox" name="m_services[]"/>
+                              <div class="control__indicator"></div>
+                            </label>
+
+                              <p>When do you require this service?</p>
+                              <input name="datepicker5" type="text" class="pure-control-group2" id="datepicker5">
+                            </div>
+                          <div class="pure-controls">
+                              <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                          </div>
+                        </fieldset>
+                      </form>
+                   </div>
+               </div>
+              </div>
+           </div>
+           </section>
+           <section class="footer">
+                <div id="bg_foot">
+                  <h1>Connect with us</h1>
+                  <hr>
+                  <div id="social_hold">
+                    <a href="https://www.facebook.com/masssecurities/?fref=ts"><div id="facebook_c"></div></a>
+                    <a href= "https://www.instagram.com/masssecurities/"><div id="instagram_c"></div></a>
+                  </div>
+                    <div id="miniLinks">
+                      <ul>
+                        <li id="aboutus_l"><a  href="#aboutus">About Us</a></li>
+                        <li><a href="#contact"> Contact Us</a></li>
+                      </ul>
+                    </div>
+
+                    <p>© 2016 Mass Securities</p>
+
+                </div>
+                <div id="mymodal" class=aboutusmodal>
+                  <div class="modal_content">
+                    <span class="close"> x</span>
+                    <h1> About Us<h1>
+                      <hr>
+                    <p>Mass Securities Limited is a company you can trust to provide you with quality burglar alarms, CCTV systems, access control / door entry systems or fire alarms for your home or business. We are based in Manchester, Greater Manchester and our installation, maintenance and monitoring of high quality intruder alarms is trusted by households and businesses across North West England.</p>
+                    <p>So, if you are in Greater Manchester, Lancashire, Cheshire, including Bolton, Bury, Oldham, Warrington, Stockport or anywhere across the North West, you can be assured of a quick service that is backed by our preferred suppliers that use only the best electronics.</p>
+                    <h3> Our services include</h3>
+                    <ul>
+                      <li> CCTV Systems</li>
+                      <li> Intruder Alarms Systems</li>
+                      <li> Fire Alarm Systems </li>
+                      <li> General Electrical Repairs </li>
+                      <li> Maintenance</li>
+                    <ul>
+                   <div>
+                </div>
+           </section>
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/plugins/bootstrap.js"></script>
+     <!-- EASING SCROLL SCRIPTS PLUGIN  -->
+    <script src="assets/plugins/jquery.easing.min.js"></script>
+    <script>
+         <!-- CUSTOM SCROLL SCRIPT FUNCTION FOR NAVBAR  -->
+        $(function () {
+            $('.scrollclass a').bind('click', function (event) { //just pass scrollclass in design and start scrolling
+                var $anchor = $(this);
+                $('html, body').stop().animate({
+                    scrollTop: $($anchor.attr('href')).offset().top
+                }, 1000, 'easeInOutQuad');
+                event.preventDefault();
+            });
+        });
+       //ADD REMOVE PADDING CLASS ON SCROLL
+
+    </script>
+</body>
+</html>

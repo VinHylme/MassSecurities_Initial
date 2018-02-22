@@ -1,0 +1,136 @@
+.alarm_section{
+  position: relative;
+  top: -1em;
+  width: 79%;
+  height: 850px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  margin: 0 auto;
+}
+.alarm_section hr{
+  width: 35%;
+}
+.alarm_section h3{
+  font-size: 29px;
+  font-weight: bold;
+}
+
+#wired_c_box{
+  border-radius: 5px;
+  width: 550px;
+  height: 295px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+#wireless_img{
+  background-image: url("alarms/alarm1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 420px;
+  height: 185px;
+  position: relative;
+  margin: 0em 11.5em;
+}
+#wired_img{
+  background-image: url("alarms/alarm2.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 450px;
+  height: 200px;
+  position: relative;
+  margin: 0em 12em;
+}
+#wired_c_box:hover{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #ff751a;
+}
+#wireless_c_box{
+  border-radius: 5px;
+  display: inline-block;
+  width: 550px;
+  height: 295px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+#wireless_c_box h2{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  left: 5.5em;
+  margin: 0.5em auto;
+  font-family: "Sansation";
+}
+#wired_c_box h2{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  left: 6em;
+  margin: 0 auto;
+  font-family: "Sansation";
+}
+#content_alarm p{
+ text-align: justify;
+}
+.current{
+  transform: scale(1.1);
+  z-index: 1000;
+  color: #ff751a;
+  border: 1px solid rgba(0,0,0,0.3)!important;
+}
+.actived{
+
+  transform: scale(1.05);
+  z-index: 1000;
+  color: #ff751a;
+  border: 1px solid rgba(0,0,0,0.3)!important;
+}
+#content_alarm h2{
+  font-size: 22px;
+  font-family: "Sansation"
+  font-weight: bold;
+}
+#wireless_1{
+
+}
+#wired_1{
+  display: none;
+}
+.content_alarm_list{
+  width: 29%;
+  position: relative;
+  height: 100px;
+  margin: 0 auto;
+
+}
+.content_alarm_list ul{
+  font-size: 15px;
+  text-align: left;
+}
+#wireless_c_box:hover{
+  color: #ff751a;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#wireless_c_box:active{
+    border: 1px solid rgba(0,0,0,0.5)
+}
+#wired_c_box:active{
+    border: 1px solid rgba(0,0,0,0.5)
+}
+#content_alarm{
+
+  width: 98%;
+  margin: 0 auto;
+  height: 455px;
+}
+#content_alarm h1{
+  font-weight: bold;
+  color: #ff751a;
+}

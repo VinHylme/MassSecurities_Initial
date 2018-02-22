@@ -1,0 +1,81 @@
+.maintenance_section{
+  border: 1px solid rgba(0,0,0,0.3);
+  width: 79%;
+  height: 850px;
+  margin: 0 auto;
+}
+.maintenance_section h3{
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Sansation";
+  color:#ff751a;
+}
+.maintenance_section hr{
+  width: 35%;
+}
+.maintenance_section h4{
+  font-size: 22px;
+}
+.maintenance_section p{
+  font-size: 17px;
+  text-align: left;
+  left: 1em;
+  position: relative;
+}
+.maintenance_section ul{
+  text-align: left;
+  font-size: 20px;
+}
+#ul_holder{
+  width: 23.5%;
+  margin: 0 auto;
+}
+.maintenance_section .button{
+    width: 440px;
+    background-color: #4d94ff;
+}
+.maintenance_section .button:hover{
+  background-color: #3385ff;
+}
+.boxes_maint{
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  width: 480px;
+  height: 220px;
+  font-family: "Sansation";
+  border: 1px solid rgba(0,0,0,0.3);
+  background-color: white;
+  margin: 0 auto;
+}
+#img_1{
+  background-repeat: no-repeat;
+  background-image: url("alarms/alarm1.jpg");
+  background-size: contain;
+  width: 190px;
+  height: 150px;
+  margin: auto;
+}
+#img_2{
+  background-repeat: no-repeat;
+  background-image: url("camera/analog_2.jpg");
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+#img_3{
+  background-repeat: no-repeat;
+  background-image: url("alarms/fire-alarms.jpg");
+  background-size: contain;
+  width: 190px;
+  height: 150px;
+  margin: auto;
+}
+
+.main{
+  color:#ff751a;
+  z-index: 10;
+  border: 1px solid rgba(0,0,0,0.5);
+  transform: scale(1.1);
+}

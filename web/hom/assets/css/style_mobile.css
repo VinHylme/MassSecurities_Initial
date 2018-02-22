@@ -1,0 +1,371 @@
+@media screen and (max-width : 1160px) {
+    #cctv_section{
+      height: 1400px !important;
+    }
+    #cctv_section p{
+      font-size: 100%;
+      line-height: 100%;
+    }
+    .min-height-cls {
+        min-height:1550px !important;
+    }
+    .bkmin-height-cls{
+      min-height: 1300px !important;
+    }
+    .almin-height-cls{
+      min-height: 800px !important;
+    }
+    .fimin-height-cls{
+      min-height: 730px !important;
+    }
+    .elmin-height-cls{
+      min-height: 730px !important;
+    }
+    .mamin-height-cls{
+      min-height: 750px !important;
+    }
+    .cmin-height-cls{
+      min-height: 900px !important;
+    }
+    .box_container{
+        display: block;
+        width: 275px;
+        height: 150px;
+        margin: 0 auto;
+    }
+    #phone_area{
+      display: block;
+      top: -2em;
+      right: 1.5em;
+    }
+    #phone_area .greybg{
+      width: 5%;
+      margin-left: 20px;
+    }
+    .greybg2{
+      display: none;
+    }
+    .navbar-toggle{
+      width: 45px;
+      height: 45px;
+      background-color:#1a1a1a;
+      border: 0;
+      top: 0em;
+      right:0;
+      z-index:1000;
+      position: fixed;;
+    }
+
+    .greybg #iconbg, #iconbg2{
+      border-radius: 5px;
+    }
+    .greybg #iconbg, #iconbg2:hover{
+      cursor: pointer;
+    }
+    .greybg h4{
+      display: none;
+    }
+    .box_container h2{
+      font-size: 14px;
+    }
+    .box_container .img{
+      width: 125px !important;
+      height: 87.5px !important;
+      margin: 0 auto;
+    }
+
+    .button{
+      width: 200px;
+      font-size: 15px;
+    }
+    #tag{
+      width: 110px !important;
+      height: 50px !important;
+      left: 16em;
+    }
+    .content{
+      position: relative;
+      width: 100%;
+    }
+    #bookingbutton{
+      font-size: 11px;
+      width: 18%;
+    }
+    .box_Content{
+        height:470px !important;
+        position: absolute;;
+        top: -10em;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .box1{
+      display: block;
+      margin: 0 auto;
+    }
+    .hommin-height-cls{
+        min-height: 1100px !important;
+    }
+   #ourinfo_section{
+      position: relative !important;
+      margin: 0 auto;
+      top: -15em;
+    }
+    #ourinfo_section h1{
+      font-size: 12px;
+    }
+    #contact h1{
+      font-size: 100%;
+    }
+    .contactForm_section {
+      height: 1000px !important;
+    }
+    #ourinfo_section{
+      margin: 0 15%;
+      position: relative;
+      top: -12em;
+    }
+    .pure-control-group textarea{
+      width: 100%;
+      resize: none;
+      height: 11vh;
+    }
+    .pure-control-group input{
+      width: 100%;
+    }
+    .pure-control-group{
+      position: relative;
+      margin: 0 auto;
+      font-size: 100%;
+
+    }
+    .pure-control-group label{
+      left: 0%;
+      text-align: left;
+      position: relative;
+      width: 100%;
+    }
+    .pure-controls button{
+      width:100px;
+      position: relative;
+      left: -10%;
+      font-size: 100%;
+    }
+
+    .contactForm_section{
+        height: 110.5vh;
+    }
+   #social_hold #facebook_c{
+     width: 50px;
+     height: 50px;
+   }
+
+   #social_hold #instagram_c{
+     width: 50px;
+     height: 50px;
+   }
+   #l_hold{
+     transform: scale(0.6);
+     top: -3.5em;
+   }
+   #contactform{
+     position: relative !important;
+     margin: 0 auto;
+
+   }
+   #c_footer hr{
+     top: -1.5em;
+   }
+   #som_holder{
+     width: 100%;
+   }
+   .electrical_section{
+     height: 1000px;
+   }
+   .boxes_maint{
+     width: 20%;
+     height: 10%;
+   }
+   .maintenance_section h2{
+     font-size: 12px;
+   }
+   #img_1{
+     width: 65px;
+     height: 65px;
+   }
+   #img_2{
+     width: 65px;
+     height: 65px;
+   }
+   #img_3{
+     width: 65px;
+     height: 65px;
+   }
+   .maintenance_section p{
+     width: 90%;
+     left: 1em;
+   }
+   .maintenance_section #ul_holder{
+     width: 50%;
+   }
+   .control-group{
+     height: 130vh;
+     font-size: 10px;
+   }
+   .booking_section{
+     height: 190vh;
+   }
+   .alarm_section h2{
+     font-size: 15px;
+   }
+   #wireless_c_box{
+     width: 250px;
+     height: 125px;
+   }
+
+   #wireless_img{
+     position: relative;
+     width: 100px;
+     height:80px;
+     margin: auto;
+   }
+   #wired_c_box{
+     width: 250px;
+     height: 125px;
+   }
+   #wired_img{
+     position: relative;
+     width: 100px;
+     height: 80px;
+     margin: auto;
+   }
+   .alarm_section h1{
+     font-size: 100%;
+   }
+   .alarm_section p{
+     font-size: 100%;
+     line-height: 120%;
+   }
+   .alarm_section ul{
+     font-size:100%;
+     width: 100%;
+   }
+   .content_alarm_list{
+     width: 100%;
+   }
+   #content_alarm{
+     height: 500px !important;
+   }
+   #falarm_box{
+     width: 250px;
+     height: 125px;
+   }
+   #falarm_c{
+     width: 130px;
+     height: 80px;
+     margin: auto;
+   }
+   .fire_alarm_section h2{
+    font-size: 15px;
+   }
+
+   .fire_alarm_section{
+     height: 660px;
+   }
+   .fire_alarm_section p{
+     position: relative;
+     font-size: 100%;
+     line-height: 120%;
+     text-align: left;
+     left: 1em;
+   }
+   .fire_alarm_section h4{
+     text-align: left;
+     position: relative;
+     left: 0em;
+   }
+   .alarm_section button{
+     position: relative;
+     width: 50%;
+     font-size: 75%;
+     top: 0em;
+   }
+
+   #listing_detectors {
+    width: 100%;
+   }
+   #listing_detectors ul{
+     margin: auto;
+
+     font-size: 1.8vw;
+   }
+   .electrical_section p{
+     font-size: 100%;
+     line-height: 120%;
+     text-align: left;
+
+   }
+   .electrical_section{
+     height: 880px;
+   }
+   .electrical_section h4{
+     font-size: 3vw;
+   }
+   .electrical_section ul{
+     font-size: 100%;
+   }
+   .electrical_section button{
+     width: 50% !important;
+     font-size: 75%;
+
+   }
+   .maintenance_section{
+     height: 700px;
+   }
+   .maintenance_section ul{
+     font-size: 100%;
+   }
+   .maintenance_section p{
+     font-size: 100%;
+     line-height: 120%;
+   }
+   .maintenance_section button{
+     width: 50% !important;
+     font-size: 75%;
+
+   }
+   .booking_section .pure-control-group label{
+    width: 100% !important;
+    position: relative;
+    left: 15% !important;
+   }
+   .booking_section .pure-control-group input{
+     width:  70% !important;
+
+   }
+   .booking_section .control-group{
+     width: 100% !important;
+     height: 100% !important;
+   }
+   .booking_section .control-group2 {
+     width: 60%;
+   }
+   .booking_section .pure-controls button{
+      font-size:18px;
+      top: 0;
+      width: 100%;
+   }
+   .booking_section{
+     height: 100%;
+   }
+   .footer #social_hold{
+     display: inline;
+     margin: 0 auto;
+     left: 40%;
+   }
+   .footer #miniLinks ul{
+     width: 240px;
+
+   }
+}

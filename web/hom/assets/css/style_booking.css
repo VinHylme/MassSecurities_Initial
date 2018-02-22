@@ -1,0 +1,446 @@
+@import url;
+@import url list-of-media-queries;
+.booking_section{
+  width: 79%;
+  height: 115vh;
+  background-color: rgba(0,0,0,0.05);
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+#booking h3{
+  color: #ff751a;
+  font-size: 26px;
+  font-weight: bold;
+}
+#booking .pure-control-group{
+  position: relative;
+
+}
+#booking .pure-control-group textarea{
+  width: 63%;
+
+  resize: none;
+  margin: auto;
+  height: 11vh;
+}
+#booking .pure-control-group input{
+  margin: 0 auto;
+  width: 33%;
+}
+#booking .pure-controls{
+  position: relative;
+  width: 35%;
+  margin: auto;
+  font-size: 1vw;
+
+}
+
+.control-group{
+  background-color: white;
+  width: 55%;
+  height: 490px;
+  padding: 30px;
+
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: left;
+}
+.control-group1_2{
+  display: none;
+  background-color: white;
+  width: 55%;
+  height: 490px;
+  padding: 30px;
+
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: left;
+}
+.control-group1_3{
+  display: none;
+  background-color: white;
+  width: 55%;
+  height: 490px;
+  padding: 30px;
+
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: left;
+}
+.control-group1_4{
+  display: none;
+  background-color: white;
+  width: 55%;
+  height: 490px;
+  padding: 30px;
+
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: left;
+}
+.control-group1_5{
+  display: none;
+  background-color: white;
+  width: 55%;
+  height: 490px;
+  padding: 30px;
+
+  border: 1px solid rgba(0,0,0,.1);
+  margin: 0 auto;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  text-align: left;
+}
+.control-group2{
+  width: 30%;
+  position: relative;
+
+  margin: 0 auto;
+}
+
+.control {
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 15px;
+  top: -1em;
+	padding-left: 30px;
+	cursor: pointer;
+}
+.booking_section button{
+    background-color: #ff751a;
+    position: relative;
+    width: 70%;
+    top: 1em;
+    left: -2%;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	background: #e6e6e6;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #ccc;
+}
+.control input:checked ~ .control__indicator {
+	background: #ff751a;
+}
+
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #e65c00;
+}
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+.select{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.select select {
+  display: inline-block;
+	width: 100%;
+  height: 30%;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: #7b7b7b;
+	border: 0;
+	border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.3);
+	outline: 0;
+	background: #fff;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+select select::-ms-expand {
+	display: none;
+}
+.select select:hover,
+.select select:focus {
+	color: #000;
+	background: rgba(0,0,0,0.05);
+
+}
+#hidden_book{
+  visibility: hidden;
+  display: none;
+}
+.greybg{
+  width: 200px;
+  height: 45px;
+  border-radius:5px;
+  background-color: #e6e6e6;
+  float: right;
+  margin-left: 10px;
+}
+.greybg h4{
+  margin-left: 10px;
+  vertical-align: middle;
+  text-align: center;
+  top: -1.7em;
+  position: relative;
+  margin: auto;
+
+  float: left;
+  left: 2.8em;
+  font-size: 20px;
+  font-weight: bold;
+}
+.greybg2{
+  width: 200px;
+  height: 45px;
+  border-radius:5px;
+  background-color: #e6e6e6;
+  float: right;
+  margin-left: 10px;
+}
+.greybg2 h4{
+  margin-left: 10px;
+  vertical-align: middle;
+  text-align: center;
+  top: -1.7em;
+  position: relative;
+  margin: auto;
+
+  float: left;
+  left: 2.8em;
+  font-size: 20px;
+  font-weight: bold;
+}
+.greybg:hover{
+
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  cursor: pointer;
+}
+.greybg2:hover{
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
+  cursor: pointer;
+}
+#iconbg{
+  position: relative;
+  width: 50px;
+  height: 45px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ff751a;
+  background-image: url("l_phone2.png");
+  background-size: 75%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#iconbg2{
+  position: relative;
+  width: 50px;
+  height: 45px;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #ff751a;
+  background-image: url("contact_phone.png");
+  background-size: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.select__arrow {
+	position: absolute;
+	top: 16px;
+	right: 15px;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	border-width: 8px 5px 0 5px;
+	border-style: solid;
+	border-color: #7b7b7b transparent transparent transparent;
+}
+.select select:hover ~ .select__arrow,
+.select select:focus ~ .select__arrow {
+	border-top-color: #000;
+}
+
+.select select:disabled ~ .select__arrow {
+	border-top-color: #ccc;
+}
+#bg_foot{
+    width: 100%;
+    height: 250px;
+    background-color: #262626;
+}
+.footer h1{
+  top: 1em;
+  text-align: center;
+  position: relative;
+  font-size: 25px;
+  color: white;
+}
+.footer hr{
+  width: 40%;
+  position: relative;
+  top: 0.4em;
+}
+.footer #social_hold{
+  position: relative;
+  left:3%;
+  right:0;
+  margin: 0 auto !important;
+  width: 15%;
+}
+.footer #facebook_c{
+  margin:0 auto;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+.footer p{
+  color: white;
+  position: relative;
+  top: 1.5em;
+  font-size: 14px;
+}
+.footer ul{
+  position: relative;
+  top: 1em;
+  width:12.612%;
+  overflow: hidden;
+  background-color: #ccc;
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+[class^=arr-]{  /* Arrows @RCB */
+  position: relative;
+  border:       solid currentColor;
+  border-width: 0 .2em .2em 0;
+  display:      inline-block;
+  padding:      .25em;
+  font-size: 22px;
+}
+.arr-up    {transform:rotate(-135deg);}
+.footer li{
+  float: left;
+  display: block;
+}
+
+.footer li a {
+  display: block;
+  color: black;
+  width: 120px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.footer li a:hover{
+  background-color: #ff751a;
+  color: white;
+  font-weight: bold;
+}
+
+.aboutusmodal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.aboutusmodal p{
+  font-size: 18px;
+  text-align: left;
+  color: black;
+}
+.aboutusmodal h3{
+  top: 2em;
+  position: relative;
+}
+.aboutusmodal ul{
+  text-align: left;
+  overflow: visible;
+  background-color: transparent;
+  float: left;
+  top: 3em;
+  list-style-type: circle;
+  position: relative;
+
+
+}
+.aboutusmodal h1{
+  color: #ff751a;
+  font-size: 38px;
+  font-family: "arial";
+}
+.modal_content{
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    height: 500px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,677 @@
+﻿
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+
+    width: 100%;
+    height: 100%;
+
+}
+.pad-top {
+    padding-top:35px;
+
+}
+.text-center {
+    text-align:center;
+
+}
+h1{
+  color: #333333;
+}
+p{
+   font-size: 20px;
+   line-height: 27px;
+   color: #262626;
+}
+#ukas_cert{
+  position: fixed;
+  left: 16em;
+  width: 300px;
+  height:150px;
+  top: 0.9em;
+  background-image: url("ukas.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(0.7);
+}
+#cert2{
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  height: 150px;
+  top: 1em;
+  left: -5em;
+  background-image: url("ukas.png");
+  background-repeat: no-repeat;
+  transform: scale(0.5);
+  background-size: contain;
+}
+#home2_section{
+  height: 500px;
+  left: 8em;
+  position: relative;
+}
+#cert{
+  display: inline-block;
+  position: relative;
+
+  width: 300px;
+  height:138px;
+  top: 2em;
+  background-image: url("ssaib-logos.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: scale(1);
+}
+.box_Content{
+
+  position: absolute;
+  left: 0;
+  top: 39.3em;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: 190px;
+  background-color: rgba(255, 148, 77,0.1)
+}
+.box_Content h1{
+  position: relative;
+  top: 0.7em;
+}
+.box_Content hr{
+  position: relative;
+  top:  2.5em;
+  padding: 0;
+  border: none;
+  border-top:1px solid #333;
+  color: #333;
+  width: 35%;
+  text-align: center;
+
+}
+.box_Content hr:after{
+  content: "Certified";
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+  background: white;
+}
+#nu_1{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  opacity: 0.8;
+  top: 6em;
+  left: 13em;
+  right: 0;
+  background-image: url("nu_1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#nu_2{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  opacity: 0.8;
+  top: 6em;
+  left: 13em;
+  right: 0;
+  background-image: url("nu_2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#nu_3{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  opacity: 0.8;
+  top: 6em;
+  left: 13em;
+  right: 0;
+  background-image: url("nu_3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#contactform{
+  z-index: 1254;
+  position: relative;
+  width: 50%;
+  height: 60%;
+  background-color:rgba(0, 0, 0, 0);
+
+}
+#l_phone{
+  position: relative;
+  left: 1em;
+  width: 6em;
+  height: 55px;
+  background-image: url("l_phone.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+#l_hold{
+    position: relative;
+    top: 1em;
+
+}
+#instagram_c{
+  filter: grayscale(100%);
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  width: 80px;
+  height: 75px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("instagram_icon.png");
+}
+#instagram_c:hover{
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+#facebook_c{
+  display: inline-block;
+  filter: grayscale(100%);
+  width: 80px;
+  height: 75px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("facebook_icon.png");
+  transition: all 0.4s ease-in-out;
+}
+#facebook_c:hover{
+  cursor: pointer;
+  filter:grayscale(0%);
+
+}
+#l_hold hr{
+  border-top: 1px solid rgba(0,0,0,0.4);
+  left: -6em;
+  position: relative;
+}
+#l_hold label{
+  text-align: left;
+  position: relative;
+  float: left;
+  left: 4em;
+  top: -45px;
+  font-size: 18px;
+}
+#l_email{
+  position: relative;
+  left: 1em;
+  width: 6em;
+  height: 55px;
+  background-image: url("l_email.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+#l_location{
+
+  position: relative;
+  left: 1em;
+  width: 6em;
+  height: 55px;
+  background-image: url("l_location.png");
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+a{
+  text-decoration: none;
+  color: #666666;
+}
+a:link{
+  color: #666666;
+}
+.pure-controls button{
+  width:100px;
+  position: relative;
+  left: -10%;
+  font-size: 100%;
+}
+#c_footer hr{
+  border-top: 1px solid rgba(0,0,0,0.4);
+  position: absolute;;
+  top: -2em;
+  left: 0;
+  right: 0;
+  width: 30%;
+}
+#c_footer h1{
+  position: relative;;
+  text-align: center;
+  font-size: 1.3vw;
+  top: -2em;
+}
+#c_footer{
+  background-color: rgba(0,0,0,0.8);
+  background-image: url("contact_footer.png");
+  background-position: 40% 0%;
+  background-size: contain;
+  width: 100%;
+  height: 35%;
+  position: absolute;
+  bottom: 0;
+}
+#contactform h1{
+  position: relative;
+  font-size: 1.5vw;
+  display: inline-block;
+
+  text-align: center;
+
+  color: #ff751a;
+}
+#ourinfo_section h1{
+    color: #ff751a;
+    font-size: 1.5vw;
+}
+#ourinfo_section{
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right:0;
+  background-color: rgba(0, 0, 0, 0);
+  width: 50%;
+  height:60%;
+
+}
+.pure-control-group textarea{
+  width: 63%;
+  resize: none;
+  height: 11vh;
+}
+.pure-control-group input{
+  width: 63%;
+}
+
+.pure-control-group{
+  position: relative;
+  left: -2em !important;
+  font-size: 1vw;
+
+}
+.contactForm_section{
+  top: -5em;
+  position: relative;
+  margin: 0 auto;
+  width:  79%;
+  height: 86.5vh;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  background-color:rgba(0, 0, 0, 0.05);
+}
+.info_holder{
+  background-image: url("email.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 63px;
+}
+.info_holder p{
+  position: relative;
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+  right: -2em ;
+  top: 1em;
+}
+
+#ContactUSHeader{
+  position: relative;
+  top: -2em !important;
+  font-weight: bold;
+  text-align: center;
+}
+.contact_Footer{
+  position: absolute;;
+  width: 100%;
+  height: 217px;
+  bottom: -10.7em;
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+
+  background-image: url("contact_footer.png");
+}
+#search_c{
+  background-image:url("search_icon.png");
+  position: absolute;
+  left: 2em;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+}
+#re_c{
+    background-image:url("re_icon.png");
+    position: absolute;
+    left: 2em;
+    display: inline-block;
+    width:90px;
+    height: 90px;
+    top: -0.5em;
+    background-size: contain;
+
+}
+#an_c{
+  background-image:url("an_icon.png");
+  position: absolute;
+  left: 2em;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-size: contain;
+}
+.box1{
+  top: 2em;
+  background-color: rgba(0, 0, 0, 0.001);
+  width: 400px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+}
+.box1 p{
+  font-size: 1.1em;
+  text-align: left;
+  position: relative;
+  float: left;
+  left: 7.4em;
+  top: -3em;
+  line-height: 1.2em;
+  font-style: italic;
+  font-weight:lighter;
+}
+.box1 h1{
+  font-weight: bold;
+  padding-left: 4em;
+  float: left;
+  position: relative;
+  top: -0.9em;
+  left: 0;
+  color: #ff751a;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+  font-size: 2em;
+}
+#textcall{
+  position: absolute;
+  font-size: 22.5px;
+  right:1.9em;
+  top:3.8em;
+}
+
+#phone_icon{
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  background-size: contain;
+  float: right;
+  right: 10em;
+  top: 7em;
+  background-image: url("contact_phone.png");
+  background-repeat: no-repeat;
+}
+#number{
+  position: absolute;
+  display: inline-block;
+  right: 4em;
+  top: 7.7em;
+  font-size: 16.3px;
+  color: #666666;
+}
+#phone_area{
+  position: relative;
+  top: -3em;
+  z-index: 10;
+  padding-top:7em;
+  padding-right: 2em;
+}
+
+#logo{
+  width: 229px;
+  height: 119px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  background-repeat: no-repeat;
+  background-size:230px 120px;
+  background-image: url("logo.png");
+}
+/*JUST ADDED PADDING IN SECTIONS OF TEMPLATE */
+section {
+    padding-top:40px;
+}
+/* ADDED PADDING IN NAVBAR */
+#logoheader{
+  min-height: 0;
+  height: 100%;
+}
+#bookings{
+  position: relative;;
+  font-weight: bold;
+  font-size: 18px;
+  width: 210px;
+  right: 0;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #ff8533;
+}
+#spliter{
+ top: -4em !important;
+ position: relative;
+ width: 25%;
+ border: 0;
+ height: 0;
+
+ border-top: 1px solid rgba(0, 0, 0, 0.1);
+ border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+#bookings a{
+  color: white;
+  border-style: none;
+}
+#bookings #booking_a:hover{
+  background-color: #ffa366;
+  border-radius: 8px;
+  color: #fff;
+}
+a{
+  outline: 0;
+}
+#bookings > .active >a{
+  background-color: transparent;
+  color: green;
+}
+
+#bookingbutton{
+  z-index: 9999;
+  font-weight: bold;
+  font-size: 16px;
+  width: 180px;
+  height: 60px;
+  color: #fff;
+  position: fixed;
+  padding-top: 1.2em;
+  right: 0;
+  top: 20em;
+  background-color: #ff8533;
+}
+#bookingbutton:hover{
+  background-color: #ffa366;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar {
+    border: 0px solid #f2f2f2;
+    background-color: transparent;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+/* CLASS FOR REMOVING PADDING IN NAVBAR*/
+.navbar-pad-original {
+  padding-right:15px;
+}
+/*TO SET MINIMUM HEIGHT OF THE SECTION: YOU CAN REMOVE THIS CLASS IF WANT */
+.min-height-cls {
+    min-height:49vw;
+}
+.bkmin-height-cls{
+  min-height: 60vw;
+}
+.conmin-height-cls{
+  min-height: 1000px;
+}
+.hommin-height-cls{
+  min-height: 775px;
+}
+.almin-height-cls{
+  min-height: 49vw;
+}
+.fimin-height-cls{
+  min-height: 49vw;
+}
+.elmin-height-cls{
+  min-height: 49vw;
+}
+.mamin-height-cls{
+  min-height: 49vw;
+}
+.cmin-height-cls{
+  min-height: 49vw;
+}
+/*CHANGING COLOR AND ROUNDING BORDER OF SCROLLSPY ON LINK ACTIVE  */
+.navbar-nav{
+    overflow: hidden;
+  background-color: #e6e6e6;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #ff751a;;
+  opacity: 1;
+}
+.navbar-nav > .active > a{
+  border-collapse: collapse;
+  outline: 0;
+  font-weight: bold;
+}
+
+/*TO MAKING NAV BAR LINKS WHITE COLORED */
+.navbar-inverse .navbar-nav > li > a {
+  color: #333;
+  outline: 0;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+background-color: #cccccc;
+opacity: 1;
+color: #404040;
+border-collapse: collapse;
+border-radius: 0px;
+outline: 0;
+}
+.navbar-inverse .navbar-brand {
+color: #000;
+}
+.navbar-inverse .navbar-brand:hover {
+color: #008ae6;
+}
+.content{
+  padding:10px;
+}
+#home{
+  overflow: hidden;
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+}
+.goUp{
+  z-index: 1000;
+  color: white;
+  border-radius: 30px;
+  position: fixed;
+  width: 45px;
+  height: 45px;
+  right: 0.6em;
+  bottom: 0.6em;
+  background-color: #333333;
+}
+.goUp:hover{
+  cursor: pointer;
+  color: orange;
+  background-color: #1a1a1a;
+}
+.goUp span{
+  position: relative;
+  left: 0.7em;
+  top: 0.8em;
+}
+.container{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#someImg{
+  margin: 10em auto;
+  background-image:url("j.jpg");
+  background-repeat: no-repeat;
+  position: relative;;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;
+  background-position: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 410px;
+}
+
+.control-group1_2 .control-group2{
+  left: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.control-group1_2 .control-group2 .select{
+  width: 30%;
+}
+.control-group1_3 .control-group2{
+  left: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.control-group1_3 .control-group2 .select{
+  width: 30%;
+}
+.control-group1_4 .control-group2{
+  left: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.control-group1_4 .control-group2 .select{
+  width: 30%;
+}
+.control-group1_5 .control-group2{
+  left: 0;
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.control-group1_5 .control-group2 .select{
+  width: 30%;
+}

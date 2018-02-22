@@ -1,0 +1,67 @@
+body,html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.middle_contain{
+  margin: 0 auto;
+  width: 80%;
+  height: 95%;
+
+}
+
+h1{
+  text-align: center;
+  font-size: 82px;
+  font-family: arial;
+  color: #333333;
+}
+p{
+  text-align: center;
+  font-size: 26px;
+  font-family: arial;
+  color: #333333;
+}
+
+hr{
+  border-top: 5px solid rgba(0, 153, 255, 0.5);
+  border-bottom: 0px;
+}
+
+.social_hold{
+  width: 350px;
+  height: 30%;
+  margin: 0 auto;
+}
+#fb{
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  filter: grayscale(100%);
+  width:100px;
+  height: 45%;
+  background-image: url("facebook_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#fb:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+#ins{
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  filter: grayscale(100%);
+  width: 100px;
+  height: 45%;
+  background-image: url("instagram_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#ins:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+}
